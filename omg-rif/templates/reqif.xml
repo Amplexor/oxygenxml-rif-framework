@@ -4,15 +4,25 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
     <THE-HEADER>
-        <REQ-IF-HEADER IDENTIFIER="">
-            <CREATION-TIME></CREATION-TIME>
-            <REQ-IF-TOOL-ID></REQ-IF-TOOL-ID>
-            <REQ-IF-VERSION></REQ-IF-VERSION>
-            <SOURCE-TOOL-ID></SOURCE-TOOL-ID>
-            <TITLE></TITLE>
+        <REQ-IF-HEADER IDENTIFIER="xx">
+            <CREATION-TIME>2018-04-13T18:14:00+02:00</CREATION-TIME>
+            <REQ-IF-TOOL-ID/>
+            <REQ-IF-VERSION/>
+            <SOURCE-TOOL-ID/>
+            <TITLE>[TITLE]</TITLE>
         </REQ-IF-HEADER>
     </THE-HEADER>
     <CORE-CONTENT>
-        <REQ-IF-CONTENT></REQ-IF-CONTENT>
+        <REQ-IF-CONTENT>
+            <DATATYPES>
+                
+            </DATATYPES>
+            <SPEC-TYPES></SPEC-TYPES>
+            <SPEC-OBJECTS></SPEC-OBJECTS>
+            <SPEC-RELATIONS></SPEC-RELATIONS>
+            <SPECIFICATIONS></SPECIFICATIONS>
+            <SPEC-RELATION-GROUPS></SPEC-RELATION-GROUPS>
+        </REQ-IF-CONTENT>
+        
     </CORE-CONTENT>
 </REQ-IF>

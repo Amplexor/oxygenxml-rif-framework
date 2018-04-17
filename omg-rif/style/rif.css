@@ -1,0 +1,74 @@
+
+@namespace "http://www.omg.org/spec/ReqIF/20110401/reqif.xsd";
+
+REQ-IF {
+    font-family: Calibri;
+}
+
+
+THE-HEADER {
+    display:block;
+    border: 2pt solid #AAAAAA;
+    margin: 6pt;
+    padding: 6pt;
+}
+
+REQ-IF-HEADER > CREATION-TIME {
+    content: "Creation: " oxy_datePicker(
+          edit, '#text'
+          columns, 16,
+          format, 'yyyy-MM-dd');
+
+}
+
+REQ-IF-HEADER > TITLE {
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+/* --------------------------  CONTENT  ----------------------------- */
+CORE-CONTENT {
+    display:block;
+}
+
+REQ-IF-CONTENT > * {
+    display: block;
+}
+
+REQ-IF-CONTENT > DATATYPES:before {
+    content: "Datatypes";
+    display: block;
+    text-decoration: underline;
+}
+
+REQ-IF-CONTENT > SPEC-TYPES:before {
+    content: "Specification types";
+    display: block;
+    text-decoration: underline;
+}
+
+REQ-IF-CONTENT > SPEC-OBJECTS:before {
+    content: "Specification objects";
+    display: block;
+    text-decoration: underline;
+}
+
+REQ-IF-CONTENT > SPEC-RELATIONS:before {
+    content: "Specification relations";
+    display: block;
+    text-decoration: underline;
+}
+
+REQ-IF-CONTENT > SPECIFICATIONS:before {
+    content: "Specifications";
+    display: block;
+    text-decoration: underline;
+}
+
+REQ-IF-CONTENT > SPEC-RELATION-GROUPS:before {
+    content: "Specification relation groups";
+    display: block;
+    text-decoration: underline;
+}
