@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
+    <THE-HEADER>
+        <REQ-IF-HEADER IDENTIFIER="">
+            <CREATION-TIME></CREATION-TIME>
+            <REQ-IF-TOOL-ID></REQ-IF-TOOL-ID>
+            <REQ-IF-VERSION></REQ-IF-VERSION>
+            <SOURCE-TOOL-ID></SOURCE-TOOL-ID>
+            <TITLE></TITLE>
+        </REQ-IF-HEADER>
+    </THE-HEADER>
+    <CORE-CONTENT>
+        <REQ-IF-CONTENT></REQ-IF-CONTENT>
+    </CORE-CONTENT>
+</REQ-IF>

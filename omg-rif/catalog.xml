@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  
+  <uri name="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" uri="./schemas/reqif.xsd"/>
+  <uri name="http://www.omg.org/spec/ReqIF/20110402/driver.xsd" uri="./schemas/driver.xsd"/>
+  
+  <!-- Schema set downloaded from w3c's https://www.w3.org/TR/xhtml-modularization/xhtml-modularization.zip -->
+  <rewriteURI uriStartString="http://www.w3.org/TR/xhtml-modularization/SCHEMA/" rewritePrefix="./schemas/xhtml-modularization/"/>
+  
+</catalog>
