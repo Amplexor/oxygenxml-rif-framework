@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
     <THE-HEADER>
         <REQ-IF-HEADER IDENTIFIER="xx">
+            <COMMENT/>
             <CREATION-TIME>2018-04-13T18:14:00+02:00</CREATION-TIME>
+            <REPOSITORY-ID/>
             <REQ-IF-TOOL-ID/>
             <REQ-IF-VERSION/>
             <SOURCE-TOOL-ID/>
@@ -15,14 +17,95 @@
     <CORE-CONTENT>
         <REQ-IF-CONTENT>
             <DATATYPES>
-                
+                <DATATYPE-DEFINITION-BOOLEAN IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID>
+                        <ALTERNATIVE-ID IDENTIFIER=""/>
+                    </ALTERNATIVE-ID>
+                </DATATYPE-DEFINITION-BOOLEAN>
+                <DATATYPE-DEFINITION-DATE IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID>
+                        <ALTERNATIVE-ID IDENTIFIER=""/>
+                    </ALTERNATIVE-ID>
+                </DATATYPE-DEFINITION-DATE>
             </DATATYPES>
-            <SPEC-TYPES></SPEC-TYPES>
-            <SPEC-OBJECTS></SPEC-OBJECTS>
-            <SPEC-RELATIONS></SPEC-RELATIONS>
-            <SPECIFICATIONS></SPECIFICATIONS>
-            <SPEC-RELATION-GROUPS></SPEC-RELATION-GROUPS>
+            <SPEC-TYPES>
+                <RELATION-GROUP-TYPE IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID>
+                        <ALTERNATIVE-ID IDENTIFIER=""/>
+                    </ALTERNATIVE-ID>
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="" LAST-CHANGE=""
+                            MULTI-VALUED="">
+                            <DEFAULT-VALUE/>
+                            <ALTERNATIVE-ID/>
+                            <TYPE>
+                                <DATATYPE-DEFINITION-ENUMERATION-REF/>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-ENUMERATION>
+                    </SPEC-ATTRIBUTES>
+                </RELATION-GROUP-TYPE>
+                <SPEC-OBJECT-TYPE IDENTIFIER="" LAST-CHANGE=""/>
+                <SPEC-RELATION-TYPE IDENTIFIER="" LAST-CHANGE=""/>
+                <SPECIFICATION-TYPE IDENTIFIER="" LAST-CHANGE=""/>
+            </SPEC-TYPES>
+            <SPEC-OBJECTS>
+                <SPEC-OBJECT IDENTIFIER="" LAST-CHANGE="">
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF/>
+                    </TYPE>
+                </SPEC-OBJECT>
+            </SPEC-OBJECTS>
+            <SPEC-RELATIONS>
+                <SPEC-RELATION IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID/>
+                    <VALUES/>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF/>
+                    </SOURCE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF/>
+                    </TARGET>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF/>
+                    </TYPE>
+                </SPEC-RELATION>
+            </SPEC-RELATIONS>
+            <SPECIFICATIONS>
+                <SPECIFICATION IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID/>
+                    <VALUES/>
+                    <CHILDREN>
+                        <SPEC-HIERARCHY IDENTIFIER="" LAST-CHANGE="">
+                            <OBJECT>
+                                <SPEC-OBJECT-REF/>
+                            </OBJECT>
+                        </SPEC-HIERARCHY>
+                    </CHILDREN>
+                    <TYPE>
+                        <SPECIFICATION-TYPE-REF/>
+                    </TYPE>
+                </SPECIFICATION>
+            </SPECIFICATIONS>
+            <SPEC-RELATION-GROUPS>
+                <RELATION-GROUP IDENTIFIER="" LAST-CHANGE="">
+                    <ALTERNATIVE-ID/>
+                    <SOURCE-SPECIFICATION>
+                        <SPECIFICATION-REF/>
+                    </SOURCE-SPECIFICATION>
+                    <SPEC-RELATIONS/>
+                    <TARGET-SPECIFICATION>
+                        <SPECIFICATION-REF/>
+                    </TARGET-SPECIFICATION>
+                    <TYPE>
+                        <RELATION-GROUP-TYPE-REF/>
+                    </TYPE>
+                </RELATION-GROUP>
+            </SPEC-RELATION-GROUPS>
         </REQ-IF-CONTENT>
-        
     </CORE-CONTENT>
+    <TOOL-EXTENSIONS>
+        <REQ-IF-TOOL-EXTENSION>
+            <xhtml:p xmlns:xhtml="http://www.w3.org/1999/xhtml"> A paragraph.</xhtml:p>
+        </REQ-IF-TOOL-EXTENSION>
+    </TOOL-EXTENSIONS>
 </REQ-IF>

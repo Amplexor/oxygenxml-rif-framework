@@ -13,6 +13,10 @@ THE-HEADER {
     padding: 6pt;
 }
 
+REQ-IF-HEADER > * {
+    display: block;
+}
+
 REQ-IF-HEADER > CREATION-TIME {
     content: "Creation: " oxy_datePicker(
           edit, '#text'
